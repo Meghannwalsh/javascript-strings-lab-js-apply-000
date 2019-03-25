@@ -2,10 +2,8 @@ var greeting = "Hello, everybody!";
 
 var specialGuest = "Neil deGrasse Tyson"
 
-var greetSpecialGuest = "Hello," + specialGuest + "!";
+var greetSpecialGuest = "" + specialGuest + "!";
 
 var topic = "space";
 
-var conversation = let/'s talk about'`${topic}`;
-
-// console.log(greetSpecialGuest);
+var conversation = `${topic}`;
